@@ -33,3 +33,13 @@ Add a ProgressBar to your layout:
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:indeterminate="true"/>
 ```
+
+```xml
+<com.thrashedbrain.rainbowprogressbar.RainbowProgressBar
+            android:id="@+id/progress2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="40dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="false"/>
+```
