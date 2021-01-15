@@ -21,7 +21,7 @@ allprojects {
 implementation 'com.github.thrashedbrain:RainbowProgressBar:0.5'
 ```
 
-#Usage
+# Usage
 
 Add a ProgressBar to your layout:
 
