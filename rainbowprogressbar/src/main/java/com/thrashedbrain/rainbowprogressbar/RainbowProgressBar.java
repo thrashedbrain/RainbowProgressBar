@@ -57,6 +57,10 @@ public class RainbowProgressBar extends ProgressBar {
     }
 
     AnimationDrawable getProgressBarAnimation(){
+
+        GradientDrawable rainbow0 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,
+                new int[] {Color.RED, Color.MAGENTA, Color.BLUE, Color.CYAN, Color.GREEN, Color.GRAY});
+
         GradientDrawable rainbow1 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,
                 new int[] {Color.RED, Color.MAGENTA, Color.BLUE, Color.CYAN, Color.GREEN, Color.YELLOW});
 
@@ -76,7 +80,7 @@ public class RainbowProgressBar extends ProgressBar {
                 new int[] {Color.MAGENTA, Color.BLUE, Color.CYAN, Color.GREEN, Color.YELLOW, Color.RED });
 
 
-        GradientDrawable[]  gds = new GradientDrawable[] {rainbow1, rainbow2, rainbow3, rainbow4, rainbow5, rainbow6};
+        GradientDrawable[]  gds = new GradientDrawable[] {rainbow0, rainbow1, rainbow2, rainbow3, rainbow4, rainbow5, rainbow6};
         AnimationDrawable animation = new AnimationDrawable();
 
         for (GradientDrawable gd : gds){
