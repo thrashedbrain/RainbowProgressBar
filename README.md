@@ -18,7 +18,7 @@ allprojects {
 ```
 
 ```Gradle
-implementation 'com.github.thrashedbrain:RainbowProgressBar:0.5'
+implementation 'com.github.thrashedbrain:RainbowProgressBar:0.6'
 ```
 
 # Usage
