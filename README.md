@@ -2,7 +2,7 @@
 
 Small library to make a rainbow progress bar
 
-![](https://raw.githubusercontent.com/thrashedbrain/RainbowProgressBar/master/screen.gif)
+![](https://raw.githubusercontent.com/thrashedbrain/RainbowProgressBar/dbdb7d5b9df878dd473e0469a9132976bd0dbbca/screen.gif)
 
 # Setup
 
